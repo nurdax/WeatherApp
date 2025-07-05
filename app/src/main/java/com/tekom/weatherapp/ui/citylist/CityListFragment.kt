@@ -77,9 +77,9 @@ class CityListFragment : Fragment() {
             if (cityName.isNotEmpty()) {
                 viewModel.addCity(cityName)
                 addCityEditText.text.clear()
-                Toast.makeText(context, "$cityName added", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "$cityName добавлена", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(context, "Please enter a city name", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Напиши название города", Toast.LENGTH_SHORT).show()
             }
         }
 
